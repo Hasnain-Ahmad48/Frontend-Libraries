@@ -1,0 +1,39 @@
+<!-- <style type='text/scss'>
+  .blog-post {
+
+      h1 {
+        text-align: center;
+        color: blue;
+      }
+      p {
+        font-size: 20px;
+      }
+  }
+</style>
+
+<div class="blog-post">
+  <h1>Blog Title</h1>
+  <p>This is a paragraph</p>
+</div> -->
+
+
+<style type="text/scss">
+    @mixin shape($w,$h,$bg-col){
+width: $w;
+height:$h;
+background-color:$bg-col;
+    }
+    #shape{
+        @include shape(50px,50px,red)
+    }
+    #react-a{
+        @include shape(100px,50px,orange)
+    }
+    #react-b{
+        @include shape(20px,30px,blue)
+    }
+</style>
+
+<div id="square">hasnains</div>
+<div id="rect-a"></div>
+<div id="rect-b"></div>
