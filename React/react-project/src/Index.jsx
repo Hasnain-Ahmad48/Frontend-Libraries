@@ -28,6 +28,8 @@ function MyComponent() {
     </div>
   );
 }
+console.log("above component1")
+//react component
 
 
 ReactDOM.render(<MyComponent />, document.getElementById("root"));
